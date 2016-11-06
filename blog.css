@@ -1,0 +1,155 @@
+body{
+	min-width: 550px;
+}
+#main{
+	background:url(../img/banner.jpg);
+	background-attachment: fixed;
+	background-repeat: none;
+	background-size:cover;
+	background-position: center center;
+}
+nav{
+	position:fixed;
+	width:100%;
+	background:rgba(0,0,0,0.1);
+	height:50px;
+}
+ul{margin:0;}
+nav ul{
+	list-style: none;
+	margin:0;
+	float:right;
+}
+nav ul li{
+	display:inline-block;	
+	line-height:50px;
+	margin-right:20px;
+}
+nav ul li a,nav div.logo a{
+	line-height: 50px;
+	text-decoration:none;
+	display:inline-block;
+	height: 50px;
+	color:#fff;
+}
+nav div.logo{
+	padding-left:20px;
+	line-height: 50px;
+	float:left;
+	font-size: 20px;
+	font-weight:700;
+	letter-spacing:10px;	
+}
+
+#banner{
+	background:rgba(0,0,0,0.01);
+	height:700px;
+	
+}
+#banner .inner{
+	max-width:200px;
+	text-align:center;
+	margin:0 auto;
+	position:relative;
+	top:200px;
+}
+h1,h2{
+	margin:0;
+}
+#banner .sub_head{
+	line-height:30px;
+	
+}
+button{
+	border:none;
+	background:#333;
+	color:#eee;
+	padding:10px;
+}
+.inner .more{
+	padding-top:220px;
+}
+
+.green-section{
+	color:#fff;
+	background:#26C9B2;
+	text-align: center;
+	padding:100px 0;
+}
+.green-section div.wrapper{
+	width:300px;
+	margin:0 auto;
+}
+.hr{
+	margin:20 auto;
+	width:300px;
+	border:1px solid #1BA5BA;
+}
+
+.green-section div.icons span{
+	font:12px "微软雅黑";
+	display:inline-block;
+	border:1px solid #1BA5BA;
+	margin:20px 20px;
+	height:50px;
+	width:50px;
+	transform:rotate(45deg);
+}
+.gray-section {
+	background:#3b3838;
+	
+}
+.gray-section div.img-section{
+	width:45%;
+	/*float:left;*/
+}
+.gray-section div.img-section img{
+	width:100%;
+}
+.gray-section div.text-description{
+	width:55%;
+	/*float:right; */
+	color:#fff;
+	position:relative;
+	top:100px;
+	left:10px;
+	word-break: break-all;
+}
+.gray-section div.text-description p,.gray-section div.text-description h2{
+	word-break: break-word||break-all;
+	margin:0 20px;
+	min-width:450px;
+	max-width: 600px;
+}
+.article-preview:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.article-preview:nth-child(odd){
+	background:rgba(0,0,0,0.08)
+}
+footer{
+	background:rgba(0,0,0,0.05);
+	min-height:150px;
+}
+footer ul.share-group {
+	display:block;
+	text-align: center;
+	margin:0 auto;
+	padding:50px;
+}
+footer ul.share-group li{
+	display:inline-block;
+	padding:10px;
+}
+.copy{
+	text-align: center;
+	padding-bottom: 20px;
+}
