@@ -1,8 +1,12 @@
 body{
-	min-width: 550px;
+	min-width: 650px;
+}
+*{
+	font:"微软雅黑";
+	color:#fff;
 }
 #main{
-	background:url(../img/banner.jpg);
+	background:url(../img/b1.jpg);
 	background-attachment: fixed;
 	background-repeat: none;
 	background-size:cover;
